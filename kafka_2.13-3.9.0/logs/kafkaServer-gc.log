@@ -260,3 +260,18 @@
 [2025-03-07T13:48:09.690+0530][gc,metaspace  ] GC(16) Metaspace: 52325K(55344K)->52325K(55344K) NonClass: 45887K(47536K)->45887K(47536K) Class: 6438K(7808K)->6438K(7808K)
 [2025-03-07T13:48:09.690+0530][gc            ] GC(16) Pause Young (Normal) (G1 Evacuation Pause) 208M->148M(1024M) 13.598ms
 [2025-03-07T13:48:09.690+0530][gc,cpu        ] GC(16) User=0.02s Sys=0.01s Real=0.02s
+[2025-03-07T15:03:14.931+0530][gc,start      ] GC(17) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-07T15:03:14.931+0530][gc,task       ] GC(17) Using 8 workers of 8 for evacuation
+[2025-03-07T15:03:14.967+0530][gc,mmu        ] GC(17) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2025-03-07T15:03:14.967+0530][gc,phases     ] GC(17)   Pre Evacuate Collection Set: 0.3ms
+[2025-03-07T15:03:14.967+0530][gc,phases     ] GC(17)   Evacuate Collection Set: 23.1ms
+[2025-03-07T15:03:14.967+0530][gc,phases     ] GC(17)   Post Evacuate Collection Set: 11.4ms
+[2025-03-07T15:03:14.967+0530][gc,phases     ] GC(17)   Other: 1.4ms
+[2025-03-07T15:03:14.967+0530][gc,heap       ] GC(17) Eden regions: 349->0(349)
+[2025-03-07T15:03:14.967+0530][gc,heap       ] GC(17) Survivor regions: 4->4(45)
+[2025-03-07T15:03:14.967+0530][gc,heap       ] GC(17) Old regions: 17->17
+[2025-03-07T15:03:14.967+0530][gc,heap       ] GC(17) Archive regions: 0->0
+[2025-03-07T15:03:14.967+0530][gc,heap       ] GC(17) Humongous regions: 129->129
+[2025-03-07T15:03:14.967+0530][gc,metaspace  ] GC(17) Metaspace: 52396K(55344K)->52396K(55344K) NonClass: 45958K(47536K)->45958K(47536K) Class: 6438K(7808K)->6438K(7808K)
+[2025-03-07T15:03:14.967+0530][gc            ] GC(17) Pause Young (Normal) (G1 Evacuation Pause) 497M->148M(1024M) 36.343ms
+[2025-03-07T15:03:14.967+0530][gc,cpu        ] GC(17) User=0.02s Sys=0.01s Real=0.03s
